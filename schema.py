@@ -12,7 +12,7 @@ def create_collection(coll_name):
         "$jsonSchema": {
             "bsonType": "object",
             "required": [
-                "username", "password", "email", "country", "createdat", "postcode", "address", "fullname", "role", "salt"],
+                "username", "password", "email", "country", "createdat", "postcode", "address", "fullname", "role", "salt", "group"],
             "properties": {
                 "username": {
                     "bsonType": "string",
@@ -49,10 +49,7 @@ def create_collection(coll_name):
                     "description": "Full name must be a string."
                 },
                 "group": {
-                    "bsonType": "array",
-                    "items": {
-                        "bsonType": "string"
-                    },
+                    "bsonType": "string",
                     "description": "Group must be an array of strings."
                 },
                 "role": {

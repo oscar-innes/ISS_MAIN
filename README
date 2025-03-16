@@ -1,0 +1,25 @@
+Banking cryptosystem:
+
+Features:
+- Interactive local chat system including SSL + TLS encryption + Diffie Hellman Key exchange for secrets.
+- Logging system for chat and system events.
+- AES-256 Symmetric encryption for at rest data inside mongodb cloud hosted database.
+- ECC asymetric encryption for JWT signing and digital signatures.
+- File encryption using fernet for logs.
+- User management panel to handle permissions and priviledges
+- JWT implementation
+- Security patching inside of app.
+- Argon 2 hashing and salting for password storage.
+
+This is a command line application designed to be run LOCALLY within your python environment (unless i figured out how to dockerise this in which case that will be easier.)
+
+How to run:
+- Make sure you are inside the folder where all the files are loctaed within your terminal.
+- If your tryna run this from git, you might need to create a SSL/TLS keypair file for the 127.0.0.1 address, but if ive sent you the files directly (for assessment) they will be there ready for you to use already.
+- Make sure you have MINIMUM python 3.10 installed! (google that if you need to install), this system was built in 3.13.0.
+- Once you have all the files you need run these following commands:
+  "python3 -m ensurepip"
+  "python3 -m pip install -r requirements.txt"
+  "python3 ISS.py" (if this returns an error, install python from the microsoft store or fix it yourself. then change directory into the project directory in the command line and run the pip install command from the previous step again)
+- Now the program should be running with any luck!
+
