@@ -1,8 +1,0 @@
-2025-04-03 11:31:18,787 [INFO] system: System started...
-2025-04-03 11:31:44,227 [WARNING] system: michelle had a failed password attempt
-2025-04-03 11:31:44,285 [INFO] system: michelle authenticated into the system without 2fa
-2025-04-03 11:31:53,476 [CRITICAL] system: michelle has accessed the menu of role System Admin
-2025-04-03 11:59:06,397 [INFO] system: System started...
-2025-04-03 11:59:26,072 [INFO] system: michelle authenticated into the system without 2fa
-2025-04-03 11:59:35,233 [CRITICAL] system: michelle has accessed the menu of role System Admin
-2025-04-03 12:00:10,525 [INFO] system: Admin michelle viewed all logs
